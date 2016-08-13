@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Entity>
+    <id>1</id>
+    <sum>15000</sum>
+    <date>2014-06-04T16:31:19.7990592+04:00</date>
+    <term>год</term>
+  </Entity>
+  <Entity>
+    <id>2</id>
+    <sum>11111111</sum>
+    <date>2014-06-04T18:58:46.975663+04:00</date>
+    <term>6 месяцев</term>
+  </Entity>
+  <Entity>
+    <id>3</id>
+    <sum>100000</sum>
+    <date>2014-09-27T20:23:08</date>
+    <term>месяц</term>
+  </Entity>
+</ArrayOfEntity>

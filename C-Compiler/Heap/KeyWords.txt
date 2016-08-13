@@ -1,0 +1,10 @@
+double
+int
+bool
+char
+input
+output
+sin
+cos
+min
+max

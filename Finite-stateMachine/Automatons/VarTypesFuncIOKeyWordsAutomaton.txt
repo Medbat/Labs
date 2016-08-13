@@ -1,0 +1,11 @@
+1
+_abcdefghijklmnopqrtsuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
+
+2
+start
+smth
+
+0
+
+start smth
+smth smth

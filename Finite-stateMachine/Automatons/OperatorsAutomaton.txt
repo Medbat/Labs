@@ -1,0 +1,48 @@
+7
+!
+&
+:
+=
+>
+<
+|
+
+17
+start
+not
+amp
+bitOr
+colon
+shiftLeft
+shiftRight
+and
+or
+doubleColon
+isEqual
+isNotEqual
+lessOrEqual
+greaterOrEqual
+less
+greater
+equal
+
+1
+#1 Wrong operator.
+
+start not amp colon equal greater less bitOr
+not! STOP STOP STOP isNotEqual STOP STOP STOP
+amp& STOP and STOP STOP STOP STOP STOP
+bitOr| STOP STOP STOP STOP STOP STOP or
+colon: STOP STOP doubleColon STOP STOP STOP STOP
+shiftLeft<< STOP STOP STOP STOP STOP STOP STOP
+shiftRight>> STOP STOP STOP STOP STOP STOP STOP
+and&& STOP STOP STOP STOP STOP STOP STOP
+or|| STOP STOP STOP STOP STOP STOP STOP
+doubleColon:: STOP STOP STOP STOP STOP STOP STOP 
+isEqual== STOP STOP STOP STOP STOP STOP STOP 
+isNotEqual!= STOP STOP STOP STOP STOP STOP STOP 
+lessOrEqual<= STOP STOP STOP STOP STOP STOP STOP 
+greaterOrEqual>= STOP STOP STOP STOP STOP STOP STOP 
+less< STOP STOP STOP lessOrEqual STOP shiftLeft STOP
+greater> STOP STOP STOP greaterOrEqual STOP shiftRight STOP 
+equal= STOP STOP STOP isEqual STOP STOP STOP

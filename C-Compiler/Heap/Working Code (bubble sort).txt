@@ -1,0 +1,41 @@
+int a[100];
+int n;
+input(n);
+int i = 0;
+int temp;
+while (i < n)
+{
+	input(temp);
+	a[i] = temp;
+	i++;
+}
+
+int j;
+
+i = n - 1;
+while (i >= 0)
+{
+	j = 0;
+	while (j < i)
+	{
+		int kostyl = j + 1;
+		if (a[j] < a[kostyl])
+		{
+			temp = a[j];
+			a[j] = a[kostyl];
+			a[kostyl] = temp;
+		}
+		j++;
+	}
+	i--;
+}
+
+
+i = 0;
+while (i < n)
+{
+	int t;
+	t = a[i];
+	output(t);
+	i++;
+}

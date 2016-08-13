@@ -1,0 +1,24 @@
+4
+'
+"
+_abcdefghijklmnopqrtsuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()+¹;:=/`~.,
+\
+
+6
+start
+string
+char
+charStarted
+stringBackslash
+charBackslash
+
+2
+#1 Quoted string should contain at least one character.
+#2 Wrong symbol.
+
+start charStarted string n/a n/a
+string string STOP string stringBackslash
+char STOP #2 #2 #2
+charStarted #1 char char charBackslash
+stringBackslash string string string string
+charBackslash char char char char

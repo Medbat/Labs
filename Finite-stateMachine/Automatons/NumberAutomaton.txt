@@ -1,0 +1,36 @@
+8
+0
+1234567
+89
+.
+xX
+abcdfABCDF
+eE
+-+
+
+9
+start
+zero
+point
+oct
+hex
+int
+double
+exp
+exp1
+
+4
+#1 Wrong octal notation symbol.
+#2 Wrong decimal notation symbol.
+#3 Wrong symbol.
+#4 Wrong heximal notation symbol.
+
+start zero int int point n/a n/a n/a n/a
+zero oct oct #1 double hex #1 exp STOP
+point double double double #3 #3 #3 #3 STOP
+oct oct oct #1 #1 #1 #1 #1 STOP
+hex hex hex hex #4 #4 hex hex STOP
+int int int int double #2 #2 exp STOP
+double double double double #3 #3 #3 exp STOP
+exp exp1 exp1 exp1 #3 #3 #3 #3 exp1
+exp1 exp1 exp1 exp1 #3 #3 #3 #3 STOP

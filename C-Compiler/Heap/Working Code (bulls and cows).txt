@@ -1,0 +1,64 @@
+{
+	int firstPlayer[10];
+	int secondPlayer[10];
+	int tempRead;
+	int i = 0;
+	int n;
+	input(n);
+	output(1111111);
+	while (i < n)
+	{
+		input(tempRead);
+		firstPlayer[i] = tempRead;
+		i++;
+	}
+	output(1111111);
+	int cows = 0;
+	int bulls = 0;
+	int num[10];
+	i=0;
+	while(i<10)
+	{
+		num[i] = 0;
+		i++;
+	}
+
+	i = 0;
+	while (i<n)
+	{
+		int temp = firstPlayer[i];
+		num[temp] = 1;
+		i ++;
+	}
+	
+	i = 0;
+	output(1111111);
+	
+	while (bulls < n)
+	{
+		i = 0;
+		while (i<n)
+		{
+			input(tempRead);
+			secondPlayer[i] = tempRead;
+			i++;
+		}
+
+		i = 0;
+		bulls = 0;
+		cows = 0;
+		while (i<n)
+		{
+			if (firstPlayer[i] == secondPlayer[i]) bulls++;
+			int tempBull = secondPlayer[i];
+			if (num[tempBull] == 1) cows++;
+			i++;
+		}
+		cows = cows - bulls;
+		output(1111111);
+		output(bulls);
+		output(cows);
+		output(1111111);
+		
+	}
+}

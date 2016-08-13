@@ -1,0 +1,41 @@
+11
+_abcdefghijklmnopqrtsuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+0123456789.
++-*/
+!&:<>=
+'"
+;
+(
+)
+[
+]
+,
+
+12
+start
+number
+operator
+const
+vtfio
+arifmetics
+semicolon
+leftParenthesis
+rightParenthesis
+leftSquareBracket
+rightSquareBracket
+comma
+
+0
+
+start vtfio number arifmetics operator const semicolon leftParenthesis rightParenthesis leftSquareBracket rightSquareBracket comma
+number STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP
+operator STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP
+const STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP
+vtfio STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP
+arifmetics STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP
+semicolon STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP
+leftParenthesis STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP
+rightParenthesis STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP
+leftSquareBracket STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP
+rightSquareBracket STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP
+comma STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP

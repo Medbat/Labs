@@ -1,0 +1,9 @@
+2
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_
+0123456789
+2
+start
+var
+0
+1	0	0
+1	1	0

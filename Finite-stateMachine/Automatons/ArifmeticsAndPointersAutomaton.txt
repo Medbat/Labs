@@ -1,0 +1,28 @@
+5
++
+-
+*
+/
+>
+
+8
+start
+plus
+minus
+star
+divide
+inc
+dec
+ptrSelector
+
+1
+#1 Wrong operator.
+
+start plus minus star divide n/a
+plus inc #1 STOP #1 #1
+minus #1 dec STOP #1 ptrSelector
+star #1 #1 STOP #1 #1
+divide #1 #1 STOP #1 #1
+inc #1 #1 STOP #1 #1
+dec #1 #1 STOP #1 #1
+ptrSelector #1 #1 #1 #1 #1
